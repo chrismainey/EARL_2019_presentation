@@ -206,10 +206,10 @@ ul, menu, dir {
 .remark-slide-content {
   color: rgb(128,128,128);
   background-color: #fff;
-  background-position: right top;
+  background-position: right top, bottom left;
 
   /*background-size: 10020% 100%; */
-  background-image: url("../Assets/Rightblox2.png");
+  background-image: url("../Assets/Rightblox2.png"), url("../Assets/logo.png");
   display: table-cell;
   font-size: 19px;
   line-height: 1.3;
