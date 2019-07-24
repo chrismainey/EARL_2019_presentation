@@ -1,0 +1,49 @@
+---
+title: "R in and NHS Trust"
+author: "Chris Mainey chris.mainey@uhb.nhs.uk"
+date: "2019/07/24 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    chakra: libs/remark-latest.min.js
+    css: "libs/HED.css"
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+class: center, middle
+
+## Driving R adoption in an NHS information service, barriers and solutions
+
+.pull-left[
+### Chris Mainey
+Intelligence Analyst
+UNiversity Hospitals Birmingham 
+NHS Foundation Trust
+
+\email{chris.mainey@uhb.nhs.uk}
+
+---
+
+# Introduction
+
+---
+
+# University Hospitals Birmingham NHS Foundation Trust
+
+---
+
+# Data analysis tools used
+
+`R` is not prevalent
+
+- Excel and Access were base-line 10-years ago
+- Complicated Database work conducted by `IT`
+- Recruited SQL developers and slowly move whole department to SQL Server
+- Excel, SQL Reporting Services and TIBCO Spotfire used for outputs
+
+`R` was used only for rare statistical calcualtions
+
+---
