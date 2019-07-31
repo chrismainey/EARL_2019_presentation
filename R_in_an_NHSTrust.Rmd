@@ -150,14 +150,17 @@ NHS Foundation Trust
  - Required lead analyst to write
  - Required team skills to run and/or debug
 
+--
+
 - Constant debugging:
  - Data changing
+ - 
  
 ]
 
 .pull-right[
 
-pictur of screen of code
+picture of screen of code
 
 ]
 
@@ -167,12 +170,18 @@ pictur of screen of code
 
 Wrapped functions in to local package structure
 
-- Initiallially on one machine
- - Build binary and save to file sructure
+- Initially on one machine
+ - Built binary and save to file sructure
  
 - Moved to source control
  - Git repo on TFS
  - GitHub was a step too far for production code at this stage
+
+- Git learning curve
+ - Happy Git with R! https://happygitwithr.com/ 
+ - Install git for windows 
+ - Figure out https connections
+ - Stef Locke's `tfsr` https://github.com/lockedata/tfsR 
 
 
 ---
