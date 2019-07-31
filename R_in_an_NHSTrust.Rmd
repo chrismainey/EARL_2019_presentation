@@ -140,6 +140,41 @@ NHS Foundation Trust
 1. `RMarkdown` Reports and Presentation
 1. API interaction (NHS ODS service, CQC register organsiations)
 
+
+---
+
+# Initial adoption:
+
+.pull-left[
+- Collections of `R` scripts save to directory
+ - Required lead analyst to write
+ - Required team skills to run and/or debug
+
+- Constant debugging:
+ - Data changing
+ 
+]
+
+.pull-right[
+
+pictur of screen of code
+
+]
+
+---
+
+# Creating a local package
+
+Wrapped functions in to local package structure
+
+- Initiallially on one machine
+ - Build binary and save to file sructure
+ 
+- Moved to source control
+ - Git repo on TFS
+ - GitHub was a step too far for production code at this stage
+
+
 ---
 # NHS R-community
 
