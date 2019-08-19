@@ -17,22 +17,15 @@ class: center
 
 <br><br><br><br><br><br><br>
 
-## Driving `R` adoption in an NHS information service, barriers and solutions
+## Driving `R` adoption in an NHS information service: barriers and solutions
 
-.pull-left[
+<br><br>
 ### Chris Mainey
 Intelligence Analyst
-UNiversity Hospitals Birmingham 
+University Hospitals Birmingham 
 NHS Foundation Trust
 
 [chris.mainey@uhb.nhs.uk](mailto:chris.mainey@uhb.nhs.uk)
-]
-
-.pull-right[
-<br><br>
-<img src="./assets/HI.png" width=90%>
-
-]
 
 
 ---
@@ -41,12 +34,11 @@ NHS Foundation Trust
 
 ---
 
-## University Hospitals Birmingham 
-## NHS Foundation Trust 
+### University Hospitals Birmingham NHS FT 
 
 - Second largest Acute-Hospital Trust 
 - Formed by merger of former UHB and Heart of England trusts
-- Fours hospitals seeing xxxx patients per year
+- Four hospitals seeing xxxx patients per year
 
 --
 
@@ -59,14 +51,14 @@ NHS Foundation Trust
 
 ---
 
-# What is 'Commerical' in NHS?
+## What is 'Commercial' in the NHS?
 
 - Healthcare Evaluation Data (HED)
  - Online hospital benchmarking system
  - Based on Hospital Episode Statistics (HES), national data over several years
  - Statistical models and analysis
  - Training and support
- - Used by ~60 NHS and other organsiations
+ - Used by ~60 NHS and other organisations
 
 
 - Other .Net-based web tools for Genomics
@@ -74,96 +66,147 @@ NHS Foundation Trust
 
 ---
 
-# Data analysis tools in NHS and UHB, used
+## Data analysis tools in NHS and UHB, used
 
-`R` is not prevalent
+__`R` is not prevalent__
+--
 
 - Excel and Access were base-line 10-years ago
 - Complicated Database work conducted by `IT`
 - Some Trusts sent regular extracts from system supplier
 - Recruited SQL developers and slowly move whole department to SQL Server
-- Excel, SQL Reporting Services and TIBCO Spotfire used for outputs
+- Excel, SQL Server Reporting Services and TIBCO Spotfire used for outputs
 
-`R` was used only for rare 'statistical' calculations or 'keenies.'
+--
 
-- Conserved pattern at other Trusts, one keen user can make the change...
+<br>
+__`R` was used only for rare 'statistical' calculations or by the 'keenies.'__
+
+- Conserved pattern at other Trusts, handful of keen users can make the change...
 
 ---
-# One keen user:
+class: middle
 
-- My own PhD project, funded by UHB, on staitstical modelling in NHS.
+.pull_left[
+<br><br>
+  
+# One keen user...
+  
+]
+
+.pull-right[
+<img src= './assets/mainard.png' width=100% height=100%>
+
+]
+
+
+
+---
+# Allow space to develop skills:
+
+- My own PhD project, funded by UHB, on statistical modelling in NHS.
 - Chose to use `R` from the outset, rather than SAS or Stata
 - Python is good candidate too, but harder to find training when I started
 - Developed statistical, visualisation and data manipulation skills
 
 - Moved some HED models to `R`
-- Support other team members to use it
-- This generated a demand for basic training.
+- Supported other team members to use it
+- This generated a demand for basic training
 
 ---
-# Follow established patterns;
+# Follow established patterns:
 
 - Set up a local user group
 - Trained senior team
-- Encourgaged new starters to use it
+- Encouraged new starters to use it
 - Made a big fuss about how awesome  is!
+--
 
 - External relationships:
  - Twitter has been key
- - NHS-R Community
+ - NHS-R Community: https://nhsrcommunity.com/
  - External R user groups
- - Regional relationships: Othe Trusts, PHE, City Council
+ - Regional relationships: Other Trusts, PHE, City Council
  - Advice from Mango, RStudio and others
 
 ---
 
-# Barrriers
+# Barriers
 
-- Open Source fears: IT teams sometime relucant to install open source software
-- Wrestling with default settings:
- - Many NHS networks have default mapped user folder that aren't writeable
- - Can't write to package library, or default file locations
+- __Open Source fears:__ IT teams sometime reluctant to install
+--
+
+- __Wrestling with default settings:__
+ - Mapped user folder that aren't writeable
+ - Can't write to package library, or temp files
+--
+
+- __Poor hardware__
+ - Mostly desktop users at hospitals
+ - Defaults can be low on disk space with minimal RAM
+--
  
-- Lack of understanding of fundamentals:
+- __Lack of understanding of fundamentals:__
  - Networking/file locations
- - Security
- - `R` coding or application
+ - Suspicions around security
+ - `R` coding or application to problems
  
- 
+---
+
+# Solutions
+
+- __Permissions:__  ___Explicitly identify default settings___
+--
+
+ - Set a specific library folder, using Windows Environmental variable `R_libs_user`
+
+ - Set temporary directories using `.Renviron` file
+
+--
+
+- __Hardware:__ 
+ - Make the case for more RAM! It doesn't cost much
+ - Consider server approaches: VMs or 'Desktop' on a 'Server'
+ - RStudio Server / RStudio Connect
+--
+
+- __Skill/Awareness:__
+ - Allow space to develop knowledge
+  - Window paradigm can mean people don't know file paths, SSH etc.
+  - Central guidance on R/Python implementation
 ---
 
 # How do we use it?
 
 1. Regression, and related models (`mgcv`, `lme4`, `glmmTMB`, `glmnet`)
+1. Machine Learning technique (`caret`, `randomForest`, `gbm`)
 1. Optimisation problems (solving equations using `nloptr`)
 1. Summary stats and Exploration
 1. `RMarkdown` Reports and Presentation
-1. API interaction (NHS ODS service, CQC register organsiations)
+1. API interaction (NHS ODS service, CQC register organisations)
 
 
 ---
 
 # Initial adoption:
 
+
+
 .pull-left[
+
+<img src= './assets/script.png' width=110% height=120%>
+
+]
+.pull-right[
 - Collections of `R` scripts save to directory
  - Required lead analyst to write
  - Required team skills to run and/or debug
 
---
-
 - Constant debugging:
  - Data changing
- - 
+ - Littered with comment, hard to decipher
  
 ]
-
-.pull-right[
-
-picture of screen of code
-
-]
-
 ---
 
 # Creating a local package
@@ -171,30 +214,59 @@ picture of screen of code
 Wrapped functions in to local package structure
 
 - Initially on one machine
- - Built binary and save to file sructure
- 
-- Moved to source control
- - Git repo on TFS
- - GitHub was a step too far for production code at this stage
+ - Built binary and save to file structure
+--
 
-- Git learning curve
- - Happy Git with R! https://happygitwithr.com/ 
- - Install git for windows 
- - Figure out https connections
- - Stef Locke's `tfsr` https://github.com/lockedata/tfsR 
+- Use `roxygen2` to write your support material as you define functions
 
+
+<img src= './assets/HED_functions.png' width=100% height=100%>
 
 ---
-# NHS R-community
 
+# Source control 
+
+.pull-left[
+- Moved to source control
+ - Install git for windows 
+ - Git learning curve
+ - Happy Git with `R`! https://happygitwithr.com/ 
+ ]
+ 
+.pull-right[
+ - Git repo on TFS
+ - Figure out https connections
+ - Stef Locke's `tfsr` https://github.com/lockedata/tfsR 
+]
+
+<img src= './assets/tfsR.png' width=100% height=100%>
+
+---
+# NHS-R community
+
+.pull-left[
 - Funded by grant from the Health Foundation
+- Aimed to support and promote `R` use
+- Training provision
+- Blog posts
+- Discussion and dissemination of best practise
+- Development of tools
+]
 
-
+.pull-right[
+<img src= './assets/nhsr-logo.png' width=100% height=100%>
+]
 ---
 
 # What's next?
 
 - Continuing to develop analyst skills in `R`
-- Contirbuting to , or building Open Source tools
+- Contributing to, or building Open Source tools with NHS-R community
 - Wider adoption of Git/GitHub
+- Pushing further into ML techniques for prediction
+
+
+## Thanks you for your time.
+
+chris.mainey@uhb.nhs.uk
 
