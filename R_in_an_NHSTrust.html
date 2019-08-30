@@ -30,67 +30,78 @@ NHS Foundation Trust
 
 ---
 
-### University Hospitals Birmingham NHS FT 
+## University Hospitals Birmingham NHS FT 
 
 - Second largest Acute-Hospital Trust 
 - Formed by merger of former UHB and Heart of England trusts
-- Four hospitals seeing xxxx patients per year
-
---
-
-- Large informatics team(s):
- - Core Information
- - SQL / Dashboard developers
- - Analytics
- - Research Team
- - Commercial
-
----
-
-## What is 'Commerical' in the NHS?
-
-- Healthcare Evaluation Data (HED)
- - Online hospital benchmarking system
- - Based on Hospital Episode Statistics (HES), national data over several years
- - Statistical models and analysis
- - Training and support
- - Used by ~60 NHS and other organsiations
-
-
-- Other .Net-based web tools for Genomics
-- NORSE
-
----
-
-## Data analysis tools in NHS and UHB, used
-
-__`R` is not prevalent__
---
-
-- Excel and Access were base-line 10-years ago
-- Complicated Database work conducted by `IT`
-- Some Trusts sent regular extracts from system supplier
-- Recruited SQL developers and slowly move whole department to SQL Server
-- Excel, SQL Server Reporting Services and TIBCO Spotfire used for outputs
+- Four hospitals seeing 440,000 in-patients per year
 
 --
 
 &lt;br&gt;
-__`R` was used only for rare 'statistical' calculations or by the 'keenies.'__
-
-- Conserved pattern at other Trusts, handful of keen users can make the change...
+- Large informatics team(s):
+ - Core Information
+ - SQL / Dashboard developers
+ - Analytics
+ - Research 
+ - Commercial
 
 ---
-class: middle
 
-.pull_left[
-&lt;br&gt;&lt;br&gt;
-  
-# One keen user...
-  
+## Benchmarking Platforms
+
+###Healthcare Evaluation Data (HED)
+[www.hed.nhs.uk](www.hed.nhs.uk)
+
+
+- Online hospital benchmarking system
+- Statistical models and analysis tools
+- Training and support
+- Used by ~60 NHS and other organisations
+
+
+---
+
+## Data analysis tools in the NHS
+
+
+- Excel and Access were baseline 10-years ago
+- 'Complicated' Database work conducted by IT department
+
+- Some Trusts sent regular extracts from system suppliers
+
+- Increasing use of Qlik, PowerBI and Tableau recently
+
+--
+
+
+### UHB:
+
+- Recruited SQL developers and slowly moved department to SQL Server
+- Excel, SQL Server Reporting Services and TIBCO Spotfire used for outputs
+
+---
+
+## Keenies...
+
+.pull-left[
+
+- `R` was used only for rare 'statistical' calculations
+
+- A few keen medical student or researchers
+
+- Conserved pattern at other Trusts
+
+- The case in our team...
+
 ]
 
+--
+
 .pull-right[
+
+# One keen user...
+
 &lt;img src= './assets/mainard.png' width=100% height=100%&gt;
 
 ]
@@ -98,48 +109,60 @@ class: middle
 
 
 ---
-# Allow space to develop skills:
+# Allowed space to develop skills:
 
-- My own PhD project, funded by UHB, on staitstical modelling in NHS.
-- Chose to use `R` from the outset, rather than SAS or Stata
+- My own PhD project, funded by UHB, on statistical modelling in NHS.
+- Chose to use `R` from the outset, rather than SAS or Stata.
+
+--
+
 - Python is good candidate too, but harder to find training when I started
 - Developed statistical, visualisation and data manipulation skills
+
+--
 
 - Moved some HED models to `R`
 - Supported other team members to use it
 - This generated a demand for basic training
 
 ---
-# Follow established patterns:
+# Followed established patterns:
 
 - Set up a local user group
+
+--
+
 - Trained senior team
-- Encourgaged new starters to use it
-- Made a big fuss about how awesome  is!
+ 
+--
+
+- Encouraged new starters to use it
+ - Plan work that requires it
+
 --
 
 - External relationships:
  - Twitter has been key
  - NHS-R Community: https://nhsrcommunity.com/
  - External R user groups
- - Regional relationships: Othe Trusts, PHE, City Council
+ - Regional relationships: Other Trusts, PHE, City Council
  - Advice from Mango, RStudio and others
 
 ---
 
-# Barrriers
+# Barriers
 
-- __Open Source fears:__ IT teams sometime relucant to install
+- __Open Source fears:__ IT teams sometimes reluctant to install
 --
 
 - __Wrestling with default settings:__
- - Mapped user folder that aren't writeable
+ - Mapped user folder that aren't writable
  - Can't write to package library, or temp files
 --
 
 - __Poor hardware__
  - Mostly desktop users at hospitals
- - Defaults can be low on disk space with minial RAM
+ - Defaults can be low on disk space with minimal RAM
 --
  
 - __Lack of understanding of fundamentals:__
@@ -151,24 +174,24 @@ class: middle
 
 # Solutions
 
-- __Permissions:__  ___Explicity identify default settings___
+- __Permissions:__  ___Explicitly identify default settings___
 --
 
- - Set a specific library folder, using Windows Environmental vairable `R_libs_user`
+ - Set a specific library, using `R_libs_user` variable
 
  - Set temporary directories using `.Renviron` file
 
 --
 
 - __Hardware:__ 
- - Make the case for more RAM! It doens't cost much
+ - Make the case for more RAM! It doesn't cost much
  - Consider server approaches: VMs or 'Desktop' on a 'Server'
  - RStudio Server / RStudio Connect
 --
 
-- __Skill/Awarenesss:__
+- __Skill/Awareness:__
  - Allow space to develop knowledge
-  - Window paradigm can mena people don't know file paths, SSH etc.
+  - Windows users often don't know file paths, SSH etc.
   - Central guidance on R/Python implementation
 ---
 
@@ -179,7 +202,7 @@ class: middle
 1. Optimisation problems (solving equations using `nloptr`)
 1. Summary stats and Exploration
 1. `RMarkdown` Reports and Presentation
-1. API interaction (NHS ODS service, CQC register organsiations)
+1. API interaction (NHS ODS service, CQC register organisations)
 
 
 ---
@@ -209,8 +232,7 @@ class: middle
 
 Wrapped functions in to local package structure
 
-- Initially on one machine
- - Built binary and save to file structure
+- Built binary and save to file structure
 --
 
 - Use `roxygen2` to write your support material as you define functions
@@ -245,8 +267,9 @@ Wrapped functions in to local package structure
 - Aimed to support and promote `R` use
 - Training provision
 - Blog posts
-- Discussion and dissemination of best practise
+- Discussion and dissemination of best practice
 - Development of tools
+- National Conference
 ]
 
 .pull-right[
@@ -258,7 +281,7 @@ Wrapped functions in to local package structure
 
 - Continuing to develop analyst skills in `R`
 - Contributing to, or building Open Source tools with NHS-R community
-- Wider adoption of Git/GitHub
+- Wider adoption of Git/Git Hub
 - Pushing further into ML techniques for prediction
 
 
