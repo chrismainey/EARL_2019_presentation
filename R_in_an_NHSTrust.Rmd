@@ -287,7 +287,7 @@ Wrapped functions in to an `R` package structure
 - Contributing to, or building Open Source tools with NHS-R community
   - __FunnelPlotR:__ https://github.com/chrismainey/FunnelPlotR
   - __NHSRdatasets:__ https://github.com/nhs-r-community/NHSRdatasets
-- Wider adoption of Git/Git Hub
+- Wider adoption of Git/GitHub
 - Pushing further into ML techniques for prediction
   - Improving current models: Ensemble techniques etc.
   - Unsupervised techniques for cluster analysis
