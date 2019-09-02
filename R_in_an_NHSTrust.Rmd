@@ -1,5 +1,5 @@
 ---
-title: "R in and NHS Trust"
+title: "R in an NHS Trust"
 author: "Chris Mainey chris.mainey@uhb.nhs.uk"
 date: "2019/07/24 (updated: `r Sys.Date()`)"
 output:
@@ -15,17 +15,17 @@ output:
 ---
 class: center
 
-<br><br><br><br><br><br><br>
+<br><br><br><br><br><br>
 
 ## Driving `R` adoption in an NHS information service: barriers and solutions
 
-<br><br>
+<br>
 ### Chris Mainey
-Intelligence Analyst
+<p style="font-size:26;")>Intelligence Analyst<br>
 University Hospitals Birmingham 
-NHS Foundation Trust
-
-[chris.mainey@uhb.nhs.uk](mailto:chris.mainey@uhb.nhs.uk)
+NHS Foundation Trust</p>
+<br>
+<span style="font-size:26;">[chris.mainey@uhb.nhs.uk](mailto:chris.mainey@uhb.nhs.uk) </span>
 
 
 ---
@@ -221,7 +221,7 @@ NHS Foundation Trust
 
 ]
 .pull-right[
-- Collections of `R` scripts save to directory
+- Collections of `R` scripts saved to directory
  - Required lead analyst to write
  - Required team skills to run and/or debug
 
@@ -234,7 +234,7 @@ NHS Foundation Trust
 
 # Creating a local package
 
-Wrapped functions in to local package structure
+Wrapped functions in to an `R` package structure
 
 - Built binary and save to file structure
 --
@@ -285,11 +285,30 @@ Wrapped functions in to local package structure
 
 - Continuing to develop analyst skills in `R`
 - Contributing to, or building Open Source tools with NHS-R community
+  - __FunnelPlotR:__ https://github.com/chrismainey/FunnelPlotR
+  - __NHSRdatasets:__ https://github.com/nhs-r-community/NHSRdatasets
 - Wider adoption of Git/Git Hub
 - Pushing further into ML techniques for prediction
+  - Improving current models: Ensemble techniques etc.
+  - Unsupervised techniques for cluster analysis
 
 
-## Thanks you for your time.
+---
+class: middle
+# Thanks for your time!
 
-chris.mainey@uhb.nhs.uk
+
+`r icon::fa("envelope")` <a href="mailto:chris.mainey@uhb.nhs.uk" style="line-height:2;"> chris.mainey@uhb.nhs.uk</a>
+<br>
+`r icon::ii("ios-browsers")` <a href="http://www.hed.nhs.uk" style="line-height:2;">http://www.hed.nhs.uk</a>
+<br>
+`r icon::fa("twitter")` <a href="https://twitter.com/chrismainey?s=09" style="line-height:2;">@chrismainey</a>
+<br>
+`r icon::fa("github")` <a href="https://github.com/chrismainey)" style="line-height:2;">chrismainey</a>
+<br>
+`r icon::ii("ios-browsers")` <a href="http://www.mainard.co.uk" style="line-height:2;">http://www.mainard.co.uk</a>
+<br>
+<div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0002-3018-6171" href="https://orcid.org/0000-0002-3018-6171" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;font-size:28;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">https://orcid.org/0000-0002-3018-6171</a></div>
+
+
 
