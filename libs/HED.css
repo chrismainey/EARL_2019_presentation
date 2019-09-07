@@ -211,7 +211,7 @@ ul, menu, dir {
   background padding: 20px;
 
   background-size: 15%, 15%, 18%, 30%;
-  background-image: url("../Assets/Earl_logo.png"), url("../Assets/Rightblox2.png"), url("../Assets/logo.png"),url("../Assets/HI.png") ;
+  background-image: url("../assets/Earl_logo.png"), url("../assets/Rightblox2.png"), url("../assets/logo.png"),url("../assets/HI.png") ;
   display: table-cell;
   font-size: 22px;
   line-height: 1.3;
