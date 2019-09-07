@@ -107,7 +107,7 @@ NHS Foundation Trust</p>
 
 # One keen user...
 
-<img src= './assets/mainard.png' width=100% height=100%>
+<img src= './assets/mainard.png' width=80% height=80%>
 
 ]
 
@@ -118,12 +118,10 @@ NHS Foundation Trust</p>
 
 - My own PhD project, funded by UHB, on statistical modelling in NHS.
 - Chose to use `R` from the outset, rather than SAS or Stata.
-
 --
 
 - Python is good candidate too, but harder to find training when I started
 - Developed statistical, visualisation and data manipulation skills
-
 --
 
 - Moved some HED models to `R`
@@ -243,7 +241,7 @@ Wrapped functions in to an `R` package structure
 - Use `roxygen2` to write your support material as you define functions
 
 
-<img src= './assets/HED_functions.png' width=100% height=100%>
+<img src= './assets/HED_functions.png' width=80% height=80%>
 
 ---
 
@@ -262,7 +260,7 @@ Wrapped functions in to an `R` package structure
  - Stef Locke's `tfsr` https://github.com/lockedata/tfsR 
 ]
 
-<img src= './assets/tfsR.png' width=100% height=100%>
+<img src= './assets/tfsR.png' width=80% height=80%>
 
 ---
 # NHS-R community
