@@ -278,7 +278,7 @@ Wrapped functions in to an `R` package structure
 ]
 
 .pull-right[
-<img src= './assets/nhsr-logo.png' width=100% height=100%>
+<img src= './assets/NHSR-logo.png' width=100% height=100%>
 ]
 ---
 
