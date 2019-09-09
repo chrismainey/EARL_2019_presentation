@@ -208,15 +208,14 @@ ul, menu, dir {
   color: rgb(128,128,128);
   background-color: #fff;
   background-position: left top, right top, bottom left, bottom right;
-  background padding: 20px;
+  
 
   background-size: 15%, 15%, 18%, 30%;
   background-image: url("https://chrismainey.github.io/EARL_2019_presentation/assets/EARL_logo.png"), url("https://chrismainey.github.io/EARL_2019_presentation/assets/RightBlox2.png"), url("https://chrismainey.github.io/EARL_2019_presentation/assets/logo.png"),url("https://chrismainey.github.io/EARL_2019_presentation/assets/HI.png") ;
+  
   display: table-cell;
   font-size: 22px;
   line-height: 1.3;
-
-  padding: 2em 4em 2em 4em;
 
   .left {
     display: block;
@@ -233,7 +232,7 @@ ul, menu, dir {
     display: block;
     text-align: right;
   }
-}
+  }
 
 pre {margin: 0}
 

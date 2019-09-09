@@ -72,7 +72,7 @@ NHS Foundation Trust&lt;/p&gt;
 
 - Some Trusts sent regular extracts from system suppliers
 
-- Increasing use of Qlik, PowerBI and Tableau recently
+- Increasing use of Qlik, PowerBI and Tableau
 
 --
 
@@ -90,7 +90,7 @@ NHS Foundation Trust&lt;/p&gt;
 
 - `R` was used only for rare 'statistical' calculations
 
-- A few keen medical student or researchers
+- A few keen researchers or medical students
 
 - Conserved pattern at other Trusts
 
@@ -111,15 +111,20 @@ NHS Foundation Trust&lt;/p&gt;
 
 
 ---
-# Allowed space to develop skills:
+## Allowed space to develop skills:
 
 - My own PhD project, funded by UHB, on statistical modelling in NHS.
-- Chose to use `R` from the outset, rather than SAS or Stata.
+- Developed statistical, visualisation and data manipulation skills
+
 --
 
-- Python is good candidate too, but harder to find training when I started
-- Developed statistical, visualisation and data manipulation skills
+- Chose to use `R` from the outset, rather than SAS or Stata.
+- Python training harder to find when I started
+
 --
+
+&lt;br&gt;&lt;br&gt;
+### Took a risk
 
 - Moved some HED models to `R`
 - Supported other team members to use it
@@ -156,8 +161,8 @@ NHS Foundation Trust&lt;/p&gt;
 --
 
 - __Wrestling with default settings:__
- - Mapped user folder that aren't writable
- - Can't write to package library, or temp files
+ - Mapped user folders that aren't writable
+ - Can't write to package library, or download temp files
 --
 
 - __Poor hardware__
@@ -178,7 +183,6 @@ NHS Foundation Trust&lt;/p&gt;
 --
 
  - Set a specific library, using `R_libs_user` variable
-
  - Set temporary directories using `.Renviron` file
 
 --
@@ -190,9 +194,9 @@ NHS Foundation Trust&lt;/p&gt;
 --
 
 - __Skill/Awareness:__
- - Allow space to develop knowledge
-  - Windows users often don't know file paths, SSH etc.
-  - Central guidance on R/Python implementation
+ - Protect time
+ - Windows users often don't know file paths, SSH etc.
+ - Central guidance on R/Python implementation
 ---
 
 # How do we use it?
@@ -201,6 +205,7 @@ NHS Foundation Trust&lt;/p&gt;
 1. Machine Learning technique (`caret`, `randomForest`, `gbm`)
 1. Optimisation problems (solving equations using `nloptr`)
 1. Summary stats and Exploration
+1. Data Visualisation (`ggplot2`, `FunnelPlotR`)
 1. `RMarkdown` Reports and Presentation
 1. API interaction (NHS ODS service, CQC register organisations)
 
@@ -213,7 +218,7 @@ NHS Foundation Trust&lt;/p&gt;
 
 .pull-left[
 
-&lt;img src= './assets/script.png' width=110% height=120%&gt;
+&lt;img src= './assets/script.png' width=115% height=130%&gt;
 
 ]
 .pull-right[
@@ -223,7 +228,7 @@ NHS Foundation Trust&lt;/p&gt;
 
 - Constant debugging:
  - Data changing
- - Littered with comment, hard to decipher
+ - Littered with comments, hard to decipher
  
 ]
 ---
@@ -232,13 +237,13 @@ NHS Foundation Trust&lt;/p&gt;
 
 Wrapped functions in to an `R` package structure
 
-- Built binary and save to file structure
+- Built binary package and saved to shared folders
 --
 
-- Use `roxygen2` to write your support material as you define functions
+- Used `roxygen2` to write support material as you define functions
 
 
-&lt;img src= './assets/HED_functions.png' width=80% height=80%&gt;
+&lt;img src= './assets/HED_functions.png' width=100% height=100%&gt;
 
 ---
 
@@ -257,22 +262,24 @@ Wrapped functions in to an `R` package structure
  - Stef Locke's `tfsr` https://github.com/lockedata/tfsR 
 ]
 
-&lt;img src= './assets/tfsR.png' width=80% height=80%&gt;
+&lt;img src= './assets/tfsR.png' width=100% height=100%&gt;
 
 ---
 # NHS-R community
 
 .pull-left[
+- Support and promote `R` use in NHS
 - Funded by grant from the Health Foundation
-- Aimed to support and promote `R` use
 - Training provision
 - Blog posts
 - Discussion and dissemination of best practice
 - Development of tools
-- National Conference
+- National Conference: 4th &amp;th November
 ]
 
 .pull-right[
+&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
 &lt;img src= './assets/NHSR-logo.png' width=100% height=100%&gt;
 ]
 ---
@@ -304,15 +311,15 @@ class: middle
 &lt;br&gt;
 <i class="ion  ion-ios-browsers "></i> &lt;a href="http://www.mainard.co.uk" style="line-height:2;"&gt;http://www.mainard.co.uk&lt;/a&gt;
 &lt;br&gt;
-&lt;div itemscope itemtype="https://schema.org/Person"&gt;&lt;a itemprop="sameAs" content="https://orcid.org/0000-0002-3018-6171" href="https://orcid.org/0000-0002-3018-6171" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;font-size:28;"&gt;&lt;img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"&gt;https://orcid.org/0000-0002-3018-6171&lt;/a&gt;&lt;/div&gt;
+&lt;br&gt;
+&lt;img src= './assets/funnelplotr.png' width=10% height=10% align="middle"&gt; `FunnelPlotR`  <i class="fas  fa-box "></i>  now available on CRAN!
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="libs/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({
 "highlightStyle": "github",
 "highlightLines": true,
-"countIncrementalSlides": false,
-"ratio": "16:9"
+"countIncrementalSlides": false
 });
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));
