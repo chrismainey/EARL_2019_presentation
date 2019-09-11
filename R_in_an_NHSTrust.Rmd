@@ -29,7 +29,8 @@ __Chris Mainey__
 University Hospitals Birmingham 
 NHS Foundation Trust</p>
 <br>
-<span style="font-size:26;">[chris.mainey@uhb.nhs.uk](mailto:chris.mainey@uhb.nhs.uk)
+<span style="font-size:26;">[chris.mainey@uhb.nhs.uk](mailto:chris.mainey@uhb.nhs.uk)</span><br>
+`r icon::fa("twitter")` <a href="https://twitter.com/chrismainey?s=09" style="line-height:2;">@chrismainey</a>
 ]
 
 .pull-right[
@@ -46,7 +47,6 @@ NHS Foundation Trust</p>
 
 --
 
-<br>
 - Large informatics team(s):
  - Core Information & Analytics
  - SQL / Dashboard developers
@@ -55,6 +55,7 @@ NHS Foundation Trust</p>
  
 --
 
+<br>
 ___So we're all R-wielding data ninjas, right?___ <img src= "https://chrismainey.github.io/EARL_2019_presentation/assets/DN.png" width=25% height=25% align="right">
 
 
@@ -63,7 +64,7 @@ ___So we're all R-wielding data ninjas, right?___ <img src= "https://chrismainey
 ## Benchmarking Platforms
 
 ###Healthcare Evaluation Data (HED)
-[www.hed.nhs.uk](www.hed.nhs.uk)
+<span align="middle"><a href="www.hed.nhs.uk">www.hed.nhs.uk </a></span>
 
 .pull-left[
 - Online hospital benchmarking system
@@ -102,7 +103,7 @@ ___So we're all R-wielding data ninjas, right?___ <img src= "https://chrismainey
 
 .pull-left[
 
-- `R` was used only for rare 'statistical' calculations
+-`R` was used only for rare 'statistical' calculations
 
 - A few keen researchers or medical students
 
@@ -185,13 +186,13 @@ ___So we're all R-wielding data ninjas, right?___ <img src= "https://chrismainey
 - __Lack of understanding of fundamentals:__
  - Networking/file locations
  - Suspicions around security
- - `R` coding or application to problems
+ - `R` coding, or its application to problems
  
 ---
 
 # Solutions
 
-- __Permissions:__  ___Explicitly identify, and change, default settings___
+- __Permissions:__  _Explicitly identify, and change, default settings_
 --
 
  - Set a folders: `R_libs_user` or `.Renviron` file
