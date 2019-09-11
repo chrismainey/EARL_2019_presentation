@@ -65,12 +65,15 @@ ___So we're all R-wielding data ninjas, right?___ <img src= "https://chrismainey
 ###Healthcare Evaluation Data (HED)
 [www.hed.nhs.uk](www.hed.nhs.uk)
 
-
+.pull-left[
 - Online hospital benchmarking system
 - Statistical models and analysis tools
 - Training and support
 - Used by ~60 NHS and other organisations
-
+]
+.pull-right[
+<img src="https://chrismainey.github.io/EARL_2019_presentation/assets/HED_system.png">
+]
 
 ---
 
