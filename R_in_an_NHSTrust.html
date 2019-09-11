@@ -46,18 +46,14 @@ NHS Foundation Trust&lt;/p&gt;
 
 &lt;br&gt;
 - Large informatics team(s):
- - Core Information
+ - Core Information &amp; Analytics
  - SQL / Dashboard developers
- - Analytics
  - Research 
  - Commercial
  
 --
 
-___So we're all R-wielding data ninjas, right?___
-
--- 
-&lt;img src= "https://chrismainey.github.io/EARL_2019_presentation/assets/HI.png" width=80% height=80% align="right"&gt;
+___So we're all R-wielding data ninjas, right?___ &lt;img src= "https://chrismainey.github.io/EARL_2019_presentation/assets/DN.png" width=25% height=25% align="right"&gt;
 
 
 ---
@@ -80,7 +76,8 @@ ___So we're all R-wielding data ninjas, right?___
 
 
 - Excel and Access were baseline 10-years ago
-- 'Complicated' Database work conducted by IT department
+
+- Variable reliance on IT departments
 
 - Some Trusts sent regular extracts from system suppliers
 
@@ -88,11 +85,11 @@ ___So we're all R-wielding data ninjas, right?___
 
 --
 
-
+&lt;br&gt;
 ### UHB:
 
-- Recruited SQL developers and slowly moved department to SQL Server
-- Excel, SQL Server Reporting Services and TIBCO Spotfire used for outputs
+- Recruited SQL devs and slowly moved whole department
+- Excel, SSRS and TIBCO Spotfire used for outputs
 
 ---
 
@@ -106,7 +103,7 @@ ___So we're all R-wielding data ninjas, right?___
 
 - Conserved pattern at other Trusts
 
-- The case in our team...
+- Also the case in our team...
 
 ]
 
@@ -123,10 +120,10 @@ ___So we're all R-wielding data ninjas, right?___
 
 
 ---
-## Allowed space to develop skills:
+## Allowed space to develop:
 
-- My own PhD project, funded by UHB, on statistical modelling in NHS.
-- Developed statistical, visualisation and data manipulation skills
+- PhD project, funded by UHB
+- Developed statistical, visualisation and data wrangling skills
 
 --
 
@@ -153,15 +150,14 @@ ___So we're all R-wielding data ninjas, right?___
  
 --
 
-- Encouraged new starters to use it
- - Plan work that requires it
+- Encouraged new starters to use `R`
 
 --
 
 - External relationships:
  - Twitter has been key
  - NHS-R Community: https://nhsrcommunity.com/
- - External R user groups
+ - External `R` user groups
  - Regional relationships: Other Trusts, PHE, City Council
  - Advice from Mango, RStudio and others
 
@@ -178,8 +174,7 @@ ___So we're all R-wielding data ninjas, right?___
 --
 
 - __Poor hardware__
- - Mostly desktop users at hospitals
- - Defaults can be low on disk space with minimal RAM
+ - Cheap desktops, low on disk space with minimal RAM
 --
  
 - __Lack of understanding of fundamentals:__
@@ -191,11 +186,10 @@ ___So we're all R-wielding data ninjas, right?___
 
 # Solutions
 
-- __Permissions:__  ___Explicitly identify default settings___
+- __Permissions:__  ___Explicitly identify, and change, default settings___
 --
 
- - Set a specific library, using `R_libs_user` variable
- - Set temporary directories using `.Renviron` file
+ - Set a folders: `R_libs_user` or `.Renviron` file
 
 --
 
@@ -255,7 +249,7 @@ Wrapped functions in to an `R` package structure
 - Used `roxygen2` to write support material as you define functions
 
 
-&lt;img src= './assets/HED_functions.png' width=100% height=100%&gt;
+&lt;img src= './assets/HED_functions.png' width=100% height=95%&gt;
 
 ---
 
