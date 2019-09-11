@@ -47,32 +47,46 @@ NHS Foundation Trust</p>
 
 --
 
+<br>
+
+.pull-left[
 - Large informatics team(s):
- - Core Information & Analytics
- - SQL / Dashboard developers
+ - Core Information 
+ - Analytics
+ - SQL engineers/ Dashboard developers
  - Research 
  - Commercial
- 
+ ]
 --
 
+.pull-right[
 <br>
-___So we're all R-wielding data ninjas, right?___ <img src= "https://chrismainey.github.io/EARL_2019_presentation/assets/DN.png" width=25% height=25% align="right">
+___So we're all R-wielding data ninjas, right?___ 
+
+<img src= "https://chrismainey.github.io/EARL_2019_presentation/assets/DN.png" width=50% height=50% align="right">
+
+]
 
 
 ---
 
-## Benchmarking Platforms
+## Healthcare Evaluation Data (HED)
 
-###Healthcare Evaluation Data (HED)
+
 <span align="middle"><a href="www.hed.nhs.uk">www.hed.nhs.uk </a></span>
+
 
 .pull-left[
 - Online hospital benchmarking system
 - Statistical models and analysis tools
-- Training and support
+- Activity, Mortality, Readmissions, Length-of-Stay, Marketshare etc.
 - Used by ~60 NHS and other organisations
+- Training and support
+<br><br>
+- __Using national NHS data__
 ]
 .pull-right[
+<br>
 <img src="https://chrismainey.github.io/EARL_2019_presentation/assets/HED_system.png">
 ]
 
@@ -83,9 +97,9 @@ ___So we're all R-wielding data ninjas, right?___ <img src= "https://chrismainey
 
 - Excel and Access were baseline 10-years ago
 
-- Variable reliance on IT departments
+- Variable reliance on IT departments and external suppliers
 
-- Some Trusts sent regular extracts from system suppliers
+- Huge differences in skills across, and within, organisations
 
 - Increasing use of Qlik, PowerBI and Tableau
 
@@ -103,13 +117,15 @@ ___So we're all R-wielding data ninjas, right?___ <img src= "https://chrismainey
 
 .pull-left[
 
--`R` was used only for rare 'statistical' calculations
+- `R` was used only for rare 'statistical' calculations
 
 - A few keen researchers or medical students
 
-- Conserved pattern at other Trusts
+- Simlar at other Trusts
 
-- Also the case in our team...
+- Also the case in our team... 
+
+- __But...__
 
 ]
 
@@ -141,7 +157,7 @@ ___So we're all R-wielding data ninjas, right?___ <img src= "https://chrismainey
 <br><br>
 ### Took a risk
 
-- Moved some HED models to `R`
+- Moved some HED models to `R`, from SAS
 - Supported other team members to use it
 - This generated a demand for basic training
 
@@ -166,6 +182,10 @@ ___So we're all R-wielding data ninjas, right?___ <img src= "https://chrismainey
  - External `R` user groups
  - Regional relationships: Other Trusts, PHE, City Council
  - Advice from Mango, RStudio and others
+
+--
+
+- ___Demonstrated ROI !!!___
 
 ---
 
@@ -218,8 +238,8 @@ ___So we're all R-wielding data ninjas, right?___ <img src= "https://chrismainey
 1. Optimisation problems (solving equations using `nloptr`)
 1. Summary stats and Exploration
 1. Data Visualisation (`ggplot2`, `FunnelPlotR`)
-1. `RMarkdown` Reports and Presentation
-1. API interaction (NHS ODS service, CQC register organisations)
+1. `RMarkdown` Reports and Presentations
+1. API interaction (NHS ODS service, CQC registered organisations)
 
 
 ---
@@ -229,6 +249,7 @@ ___So we're all R-wielding data ninjas, right?___ <img src= "https://chrismainey
 
 
 .pull-left[
+<br>
 
 <img src= './assets/script.png' width=115% height=130%>
 
@@ -252,10 +273,10 @@ Wrapped functions in to an `R` package structure
 - Built binary package and saved to shared folders
 --
 
-- Used `roxygen2` to write support material as you define functions
+- Used `roxygen2` to write support material
 
 
-<img src= './assets/HED_functions.png' width=100% height=95%>
+<img src= './assets/HED_functions.png' width=100% height=100%>
 
 ---
 
@@ -276,37 +297,49 @@ Wrapped functions in to an `R` package structure
 
 <img src= './assets/tfsR.png' width=100% height=100%>
 
+
 ---
 # NHS-R community
 
 .pull-left[
-- Support and promote `R` use in NHS
+- Promote `R` use in NHS
+- Led by Prof. MA Mohammed
 - Funded by grant from the Health Foundation
 - Training provision
 - Blog posts
-- Discussion and dissemination of best practice
+- Share best practice
 - Development of tools
-- National Conference: 4th &th November
+- National Conference: 4th & 5th November
 ]
 
 .pull-right[
 <br><br><br>
 
 <img src= './assets/NHSR-logo.png' width=100% height=100%>
+
 ]
+
 ---
+  
+## What's next?
+  
+  - Continuing to develop analyst skills in `R`
 
-# What's next?
+--
+  
+  - Spreading to different teams: control charts, Rmarkdown
 
-- Continuing to develop analyst skills in `R`
-- Contributing to, or building Open Source tools with NHS-R community
-  - __FunnelPlotR:__ https://github.com/chrismainey/FunnelPlotR
-  - __NHSRdatasets:__ https://github.com/nhs-r-community/NHSRdatasets
-- Wider adoption of Git/GitHub
-- Pushing further into ML techniques for prediction
-  - Improving current models: Ensemble techniques etc.
-  - Unsupervised techniques for cluster analysis
+--
+  
+  - Contributing to, or building, Open Source tools with NHS-R community
+- `FunnelPlotR`
+- `NHSRdatasets`
 
+--
+  
+  - Pushing further into ML techniques for prediction
+- Improving current models: Ensemble techniques etc.
+- Unsupervised techniques for cluster analysis.
 
 ---
 class: middle
@@ -325,5 +358,3 @@ class: middle
 <br>
 <br>
 <img src= './assets/funnelplotr.png' width=10% height=10% align="middle"> `FunnelPlotR`  `r icon::fa("box")`  now available on CRAN!
-
-
