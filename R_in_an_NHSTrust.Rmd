@@ -15,30 +15,34 @@ output:
 ---
 class: center
 
-<br><br><br><br><br><br>
+
+
+<br><br><br><br><br>
 
 ## Driving `R` adoption in an NHS information service: barriers and solutions
 
 <br>
-### Chris Mainey
+
+.pull-left[
+__Chris Mainey__
 <p style="font-size:26;")>Intelligence Analyst<br>
 University Hospitals Birmingham 
 NHS Foundation Trust</p>
 <br>
-<span style="font-size:26;">[chris.mainey@uhb.nhs.uk](mailto:chris.mainey@uhb.nhs.uk) </span>
+<span style="font-size:26;">[chris.mainey@uhb.nhs.uk](mailto:chris.mainey@uhb.nhs.uk)
+]
 
-
----
-
-# Introduction
+.pull-right[
+<img src= "https://chrismainey.github.io/EARL_2019_presentation/assets/EARL_logo.png" width=80% height=80%>
+<img src= "https://chrismainey.github.io/EARL_2019_presentation/assets/HI.png" width=80% height=80%>
+]
 
 ---
 
 ## University Hospitals Birmingham NHS FT 
 
 - Second largest Acute-Hospital Trust 
-- Formed by merger of former UHB and Heart of England trusts
-- Four hospitals seeing 440,000 in-patients per year
+- Four hospitals seeing approx. 440,000 in-patients per year
 
 --
 
@@ -49,6 +53,14 @@ NHS Foundation Trust</p>
  - Analytics
  - Research 
  - Commercial
+ 
+--
+
+___So we're all R-wielding data ninjas, right?___
+
+-- 
+<img src= "https://chrismainey.github.io/EARL_2019_presentation/assets/HI.png" width=80% height=80% align="right">
+
 
 ---
 
