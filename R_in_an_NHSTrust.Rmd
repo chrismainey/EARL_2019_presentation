@@ -17,7 +17,7 @@ class: center
 
 
 
-<br><br><br><br><br>
+<br><br><br><br>
 
 ## Driving `R` adoption in an NHS information service: barriers and solutions
 
@@ -26,8 +26,8 @@ class: center
 .pull-left[
 __Chris Mainey__
 <p style="font-size:26;")>Intelligence Analyst<br>
-University Hospitals Birmingham 
-NHS Foundation Trust</p>
+<b>University Hospitals Birmingham 
+NHS Foundation Trust</b></p>
 <br>
 <span style="font-size:26;">[chris.mainey@uhb.nhs.uk](mailto:chris.mainey@uhb.nhs.uk)</span><br>
 `r icon::fa("twitter")` <a href="https://twitter.com/chrismainey?s=09" style="line-height:2;">@chrismainey</a>
@@ -35,6 +35,7 @@ NHS Foundation Trust</p>
 
 .pull-right[
 <img src= "https://chrismainey.github.io/EARL_2019_presentation/assets/EARL_logo.png" width=80% height=80%>
+<br><br>
 <img src= "https://chrismainey.github.io/EARL_2019_presentation/assets/HI.png" width=80% height=80%>
 ]
 
@@ -42,7 +43,7 @@ NHS Foundation Trust</p>
 
 ## University Hospitals Birmingham NHS FT 
 
-- Second largest Acute-Hospital Trust in England
+- Second largest acute hospital trust in England
 - Four hospital sites seeing approx. 440,000 in-patients per year
 
 --
@@ -117,13 +118,13 @@ ___So we're all R-wielding data ninjas, right?___
 
 .pull-left[
 
-- `R` was used only for rare 'statistical' calculations
+- R was used only for rare 'statistical' calculations 🦄
 
 - A few keen researchers or medical students
 
 - Simlar at other Trusts
 
-- Also the case in our team... 
+- Also the case in our team...
 
 - __But...__
 
@@ -323,26 +324,27 @@ Wrapped functions in to an `R` package structure
   
 ## What's next?
   
-  - Continuing to develop analyst skills in `R`
+- Continuing to develop analyst skills in `R`
 
 --
   
-  - Spreading to different teams: control charts, Rmarkdown
+- Spreading to different teams: control charts, Rmarkdown
 
 --
   
-  - Contributing to, or building, Open Source tools with NHS-R community
-- `FunnelPlotR`
-- `NHSRdatasets`
+- Contributing to, or building, Open Source tools with NHS-R community:
+ - `FunnelPlotR`
+ - `NHSRdatasets`
 
 --
   
-  - Pushing further into ML techniques for prediction
-- Improving current models: Ensemble techniques etc.
-- Unsupervised techniques for cluster analysis.
+- Pushing further into ML techniques for prediction
+ - Improving current models: Ensemble techniques etc.
+ - Unsupervised techniques for cluster analysis.
 
 ---
 class: middle
+
 # Thanks for your time!
 
 
