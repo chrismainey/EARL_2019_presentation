@@ -15,7 +15,9 @@ output:
 ---
 class: center
 
-
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
 
 <br><br><br><br>
 
@@ -25,12 +27,12 @@ class: center
 
 .pull-left[
 __Chris Mainey__
-<p style="font-size:26;")>Intelligence Analyst<br>
+<p style="font-size:26;">Intelligence Analyst<br>
 <b>University Hospitals Birmingham 
 NHS Foundation Trust</b></p>
 <br>
 <span style="font-size:26;">[chris.mainey@uhb.nhs.uk](mailto:chris.mainey@uhb.nhs.uk)</span><br>
-`r icon::fa("twitter")` <a href="https://twitter.com/chrismainey?s=09" style="line-height:2;">@chrismainey</a>
+`r icon::fa("twitter", color=rgb(148, 198, 0, maxColorValue = 255))` <a href="https://twitter.com/chrismainey?s=09" style="line-height:2;">@chrismainey</a>
 ]
 
 .pull-right[
@@ -64,7 +66,7 @@ NHS Foundation Trust</b></p>
 <br>
 ___So we're all R-wielding data ninjas, right?___ 
 
-<img src= "https://chrismainey.github.io/EARL_2019_presentation/assets/DN.png" width=50% height=50% align="right">
+<img src="https://chrismainey.github.io/EARL_2019_presentation/assets/DN.png" width=50% height=50% align="right">
 
 ]
 
@@ -74,7 +76,7 @@ ___So we're all R-wielding data ninjas, right?___
 ## Healthcare Evaluation Data (HED)
 
 
-<span align="middle"><a href="www.hed.nhs.uk">www.hed.nhs.uk </a></span>
+<a href="https://www.hed.nhs.uk">www.hed.nhs.uk </a>
 
 
 .pull-left[
@@ -118,7 +120,7 @@ ___So we're all R-wielding data ninjas, right?___
 
 .pull-left[
 
-- R was used only for rare 'statistical' calculations 🦄
+- R was used only for rare 'statistical' calculations
 
 - A few keen researchers or medical students
 
@@ -351,15 +353,15 @@ class: middle
 # Thanks for your time!
 
 
-`r icon::fa("envelope")` [chris.mainey@uhb.nhs.uk](mailto:chris.mainey@uhb.nhs.uk)
+`r icon::fa("envelope", color=rgb(148, 198, 0, maxColorValue = 255))` <a href="mailto:chris.mainey@uhb.nhs.uk;" style="line-height:2;"> chris.mainey@uhb.nhs.uk </a>
 <br>
-`r icon::ii("ios-browsers")` <a href="http://www.hed.nhs.uk" style="line-height:2;">http://www.hed.nhs.uk</a>
+`r icon::fa("globe", color=rgb(148, 198, 0, maxColorValue = 255))` <a href="http://www.hed.nhs.uk" style="line-height:2;">http://www.hed.nhs.uk</a>
 <br>
-`r icon::fa("twitter")` <a href="https://twitter.com/chrismainey?s=09" style="line-height:2;">@chrismainey</a>
+`r icon::fa("twitter", color=rgb(148, 198, 0, maxColorValue = 255))` <a href="https://twitter.com/chrismainey?s=09" style="line-height:2;">@chrismainey</a>
 <br>
-`r icon::fa("github")` <a href="https://github.com/chrismainey)" style="line-height:2;">chrismainey</a>
+`r icon::fa("github", color=rgb(148, 198, 0, maxColorValue = 255))` <a href="https://github.com/chrismainey)" style="line-height:2;">chrismainey</a>
 <br>
-`r icon::ii("ios-browsers")` <a href="http://www.mainard.co.uk" style="line-height:2;">http://www.mainard.co.uk</a>
+`r icon::fa("globe", color=rgb(148, 198, 0, maxColorValue = 255))` <a href="http://www.mainard.co.uk" style="line-height:2;">http://www.mainard.co.uk</a>
 <br>
 <br>
-<img src= './assets/funnelplotr.png' width=10% height=10% align="middle"> `FunnelPlotR`  `r icon::fa("box")`  now available on CRAN!
+<img src= './assets/funnelplotr.png' width=10% height=10% align="middle"> `FunnelPlotR`  `r icon::fa("box", color=rgb(148, 198, 0, maxColorValue = 255))`  now available on CRAN!
